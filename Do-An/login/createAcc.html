@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+   <h1 style="font-size:20px;"> 
+   <a style="color:black;" href="./login.html">&#10094; &#10094; Trở về </a>
+   </h1>
+    <div id="wrapper" id="form-login">
+        <div class="border">
+            <h1 class="form-heading">CREATE ACCOUNT</h1>
+            <div class="form-vertical">
+            <form method="post" action="/account/recover" accept-charset="UTF-8"><input type="hidden" name="form_type" value="recover_customer_password"><input type="hidden" name="utf8" value="✓">
+                <label >First Name</label>
+                <input type="text" name="customer[first_name]" id="RegisterForm-FirstName" autocomplete="given-name">
+            <p>
+                <label >Last Name</label>
+                <input type="text" name="customer[last_name]" id="RegisterForm-LastName" autocomplete="family-name">
+            </p>
+            <p>
+                <label >Email</label>
+                <input type="email" name="customer[email]" id="RegisterForm-email" class="" autocorrect="off" autocapitalize="off" autocomplete="email" aria-required="true">
+            </p>  
+            <p>
+                <label>Password</label>
+                <input type="password" name="customer[password]" id="RegisterForm-password" class="" aria-required="true"><p class="text-center">
+            </p>
+                <input type="submit" value="Create" class="btn">
+            </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

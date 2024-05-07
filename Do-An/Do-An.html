@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet prefetch" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./login.css" />
+  <title>Sugong Coffee</title>
+</head>
+
+<body>
+  <div class="head">
+    <img style="position: absolute; width: 100%; height: 100%" src="./MenuPage/Temp/picture-head.png" alt="" />
+    <div class="nvarbar">
+      <h1>QTV</h1>
+      <div id="menu">
+        <ul>
+          <li onclick="tai_lai_trang()"><a href="#"> Home </a></li>
+          <li>
+            <a href="./MenuPage/Menu.html"> Menu </a>
+          </li>
+          <li><a href="#"> Sự Kiện </a></li>
+          <li><a href="./teaBlog.html"> Giới Thiệu </a></li>
+          <li><a href="#"> Hỗ Trợ </a></li>
+        </ul>
+      </div>
+      <div id="wrapper">
+        <a href="login/login.html"><img class="login" src="./MenuPage/Temp/icon-acc.jpg" id="form-login-btn" /></a>
+        <form id="form-login" method="post" action="login.php">
+          <h1>Login</h1>
+          <input type="email" name="email" placeholder="Email" required />
+          <input type="password" name="password" placeholder="Password" required />
+          <button type="submit">Sign In</button>
+          <a href="./login/forgotPassword.html">Forgot your password ?</a>
+          <a href="./login/createAcc.html">Create Account</a>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="QC">
+    <div class="div_one">
+      <img src="./MenuPage/Temp/icon_QC1.png" alt="" />
+      <div class="QC_cmt">
+        <b> Free shipping worldwide </b>
+        <p>on order over 300.000 vnd</p>
+      </div>
+    </div>
+    <div class="div_two">
+      <img src="./MenuPage/Temp/icon_QC2.webp" alt="" />
+      <div class="QC_cmt">
+        <b> Special Our Card </b>
+        <p>other special bonusses with</p>
+      </div>
+    </div>
+    <div class="div_three">
+      <img src="./MenuPage/Temp/icon_QC3.png" alt="" />
+      <div class="QC_cmt">
+        <b> Cash on delivery </b>
+        <p>100% money refunded</p>
+      </div>
+    </div>
+    <div class="div_four">
+      <img src="./MenuPage/Temp/icon_QC4.webp" alt="" />
+      <div class="QC_cmt">
+        <b> 24/7 customer service </b>
+        <p>call us 24/7</p>
+      </div>
+    </div>
+  </div>
+  <!-- quảng cáo slide show         -->
+  <div class="slideshow-Container">
+    <div class="slide">
+      <img src="./MenuPage/Temp/Fatcaron.png" style="width: 100%; height: 800px" />
+    </div>
+    <div class="slide">
+      <img c src="./MenuPage/Temp/tea.png" style="width: 100%; height: 800px" />
+    </div>
+    <div class="slide">
+      <img src="./MenuPage/Temp/sì mút thi.png" style="width: 100%; height: 800px" />
+    </div>
+    <div class="slide">
+      <img src="./MenuPage/Temp/Drowning in salted coffee.png" style="width: 100%; height: 800px" />
+    </div>
+    <div class="slide">
+      <img src="./MenuPage/Temp/đô nút.png" style="width: 100%; height: 800px" />
+    </div>
+    <a class="prev" onclick="plusSlides (-1) ">&#10094;</a>
+    <a class="next" onclick="plusSlides (1) ">&#10095;</a>
+  </div>
+  <div class="container">
+    <!-- -------------------BEST------------------------->
+    <div class="container-1">
+      <div class="title">
+        <h1>Best Seller</h1>
+      </div>
+      <div class="container-1_cl-1">
+        <img src="./MenuPage/Coffee/Epresso.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">45.000 VNĐ</p>
+          <p class="name">Epresso</p>
+        </div>
+      </div>
+      <div class="container-1_cl-2">
+        <img src="./MenuPage/Cookies/carrot cream cheese.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">45.000 VNĐ</p>
+          <p class="name">Carrot Cream Cheese Cookies</p>
+        </div>
+      </div>
+      <div class="container-1_cl-3">
+        <img src="./MenuPage/Maccarons/Blueberry Cheesecake Macarons.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">30.000 VNĐ</p>
+          <p class="name">Blueberry Cheesecake Macarons</p>
+        </div>
+      </div>
+      <div class="container-1_cl-4">
+        <img src="./MenuPage/Donuts/Glazed Coconut Donuts.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">30.000 VNĐ</p>
+          <p class="name">Glazed Coconut Donuts</p>
+        </div>
+      </div>
+    </div>
+    <div class="center">
+      <div class="div_1">
+        <img src="./MenuPage/Temp/picture-center-1.jpg" alt="" />
+      </div>
+      <div class="div_2">
+        <img src="./MenuPage/Temp/picture-center-2.jpg" alt="" />
+      </div>
+      <div class="div_3">
+        <img src="./MenuPage/Temp/picture-center-3.jpg" alt="" />
+      </div>
+      <div class="div_4">
+        <img src="./MenuPage/Temp/picture-center-4.jpg" alt="" />
+      </div>
+      <div class="div_5">
+        <img style="height: 1180px; width: 850px" src="./MenuPage/Temp/picture-center-5.jpg" alt="" />
+      </div>
+    </div>
+    <!-- -------------------COFFEE------------------------->
+    <div class="container-2">
+      <div class="title_menu">
+        <h1>Coffee</h1>
+      </div>
+      <h2 class="seeAll"><a href="./MenuPage/Menu.html">Click to see all</a></h2>
+      <div class="container-1_cl-1">
+        <img src="./MenuPage/Coffee/Epresso.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">45.000 VNĐ</p>
+          <p class="name">Epresso</p>
+        </div>
+      </div>
+      <div class="container-1_cl-2">
+        <img src="./MenuPage/Coffee/FlatWhite.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">60.000 VNĐ</p>
+          <p class="name">Flat White</p>
+        </div>
+      </div>
+      <div class="container-1_cl-3">
+        <img src="./MenuPage/Coffee/Americano.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">45.000 VNĐ</p>
+          <p class="name">Americano</p>
+        </div>
+      </div>
+      <div class="container-1_cl-4">
+        <img style="position: relative; margin-top: 70px" src="./MenuPage/Coffee/Latte.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">30.000 VNĐ</p>
+          <p class="name">Latte</p>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------TEA------------------------->
+    <div class="container-3">
+      <div class="title_menu">
+        <h1>Tea & Milk Tea</h1>
+      </div>
+
+      <h2 class="seeAll">
+        <a href="./MenuPage/Menu.html">Click to see all </a>
+      </h2>
+      <div class="container-1_cl-1">
+        <img style="position: relative; margin-top: -50px" src="./MenuPage/Tea & Milk Tea/black sugar bubble milk.png"
+          alt="" />
+        <div class="container-cash">
+          <p class="container-p">65.000 VNĐ</p>
+          <p class="name">Black Sugar Milk Tea</p>
+        </div>
+      </div>
+      <div class="container-1_cl-2">
+        <img style="position: relative; margin-top: 70px" src="./MenuPage/Tea & Milk Tea/matcha latte.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">60.000 VNĐ</p>
+          <p class="name">Matcha Milk Tea</p>
+        </div>
+      </div>
+      <div class="container-1_cl-3">
+        <img style="position: relative; margin-top: 70px" src="./MenuPage/Tea & Milk Tea/hbt.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">30.000 VNĐ</p>
+          <p class="name">Herbal Tea</p>
+        </div>
+      </div>
+      <div class="container-1_cl-4">
+        <img style="position: relative; margin-top: 70px" src="./MenuPage/Tea & Milk Tea/peach.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">45.000 VNĐ</p>
+          <p class="name">Peach Tea</p>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------SMOOTHIES------------------------->
+    <div class="container-4">
+      <div class="title_menu">
+        <h1>Smoothies</h1>
+      </div>
+      <h2 class="seeAll">
+        <a href="./MenuPage/Menu.html">Click to see all </a>
+      </h2>
+      <div class="container-1_cl-1">
+        <img src="./MenuPage/Smoothie/apple banana.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">45.000 VNĐ</p>
+          <p class="name">Apple Banana Smoothie</p>
+        </div>
+      </div>
+      <div class="container-1_cl-2">
+        <img src="./MenuPage/Smoothie/berry vanilla.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">45.000 VNĐ</p>
+          <p class="name">Berry Vanilla Smoothie</p>
+        </div>
+      </div>
+      <div class="container-1_cl-3">
+        <img src="./MenuPage/Smoothie/chocolate peanut.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">45.000 VNĐ</p>
+          <p class="name">Chocolate Peanut Smoothie</p>
+        </div>
+      </div>
+      <div class="container-1_cl-4">
+        <img style="position: relative; margin-top: -80px" src="./MenuPage/Smoothie/mocha banana.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">50.000 VNĐ</p>
+          <p class="name">Mocha Banana Smoothie</p>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------CAKE------------------------->
+    <div class="container-5">
+      <div class="title_menu">
+        <h1>Cake</h1>
+      </div>
+      <h2 class="seeAll">
+        <a href="./MenuPage/Menu.html">Click to see all </a>
+      </h2>
+      <div class="container-1_cl-1">
+        <img src="./MenuPage/Maccarons/Chocolate Macarons.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">30.000 VNĐ</p>
+          <p class="name">Coconut Macarons</p>
+        </div>
+      </div>
+      <div class="container-1_cl-2">
+        <img src="./MenuPage/Cookies/oatmeal cookies.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">45.000 VNĐ</p>
+          <p class="name">Oatmeal Cookies</p>
+        </div>
+      </div>
+      <div class="container-1_cl-3">
+        <img src="./MenuPage/Maccarons/green tea macarons.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">30.000 VNĐ</p>
+          <p class="name">Green Tea Macarons</p>
+        </div>
+      </div>
+      <div class="container-1_cl-4">
+        <img src="./MenuPage/Donuts/Triple Chocolate Donuts.png" alt="" />
+        <div class="container-cash">
+          <p class="container-p">30.000 VNĐ</p>
+          <p class="name">Triple Chocolate Donuts</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-content">
+      <div class="footer-1">
+        <h1>CONTRACT INFO</h1>
+        <p>Address: Tay Thanh, Tan Phu, Tp.HCM</p>
+        <p>Phone: 1900 1008</p>
+        <p>Fax: 123-456-789</p>
+        <p>Email: SugongCoffee@gmail.com</p>
+      </div>
+      <div class="footer-2">
+        <div class="add-box">
+          <i class="fa fa-map-marker your-address" id="add-address">
+            <p>Please leave feedback to make Sugong better and better</p>
+            <input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" />
+            <input type="hidden" name="contact[tags]" value="newsletter" />
+            <div class="input-group">
+              <input type="text" name="customer[first_name]" id="RegisterForm-FirstName" autocomplete="given-name" />
+              <span class="input-group__btn">
+                <button type="submit" class="btn newsletter__submit" name="commit" id="Subscribe">
+                  <span class="newsletter__submit-text--large">Send</span>
+                </button>
+              </span>
+            </div>
+          </i>
+        </div>
+      </div>
+      <div class="footer-3">
+        <h1>NEWSLETTER</h1>
+        <p>Address: Tay Thanh, Tan Phu, Tp.HCM</p>
+        <p>Phone: 1900 1008</p>
+        <p>Fax: 123-456-789</p>
+        <h2>Enter @'mail here</h2>
+        <button>
+          <b>
+            <a href="https://www.youtube.com/@MixiGaming89/featured">
+              SUBSCRIBE
+            </a>
+          </b>
+        </button>
+      </div>
+      <div class="footer-link">
+        <img src="./MenuPage/Temp/link-face.webp" />
+        <img src="./MenuPage/Temp/link-youtube.png" alt="" />
+        <img src="./MenuPage/Temp/link-ins.webp" alt="" />
+        <img src="./MenuPage/Temp/link-twitter.png" alt="" />
+        <img src="./MenuPage/Temp/link-tiktok.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <!-- Login script -->
+  <script>
+    var loginBtn = document.getElementById("form-login-btn");
+    var loginForm = document.getElementById("form-login");
+    loginBtn.addEventListener("click", function () {
+      loginForm.classList.toggle("show");
+    });
+  </script>
+  <!-- script -->
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides((slideIndex += n));
+    }
+
+    function currentSlide(n) {
+      showSlides((slideIndex = n));
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("slide");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace("active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+  <script>
+    function addAddress() {
+      var address = prompt("Enter your address", "");
+      if (address) {
+        document.getElementById("add-address").innerText = " " + address;
+      } else {
+        alert("Address not added");
+      }
+    }
+  </script>
+  <script>
+    function tai_lai_trang() {
+      location.reload();
+    }
+  </script>
+  <script src="" async defer></script>
+</body>
+
+</html>

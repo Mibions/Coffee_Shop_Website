@@ -1,0 +1,108 @@
+body{
+    background: url('../images/bg.jpeg');
+    background-size: cover;
+    background-position-y: -80px; 
+    /* background-image: url('https://hanoitop10.com/wp-content/uploads/2023/02/hinh-nen-hoa-tulip_3.jpg'); */
+}
+img{
+    width: 240px;
+    height: 102px;
+}
+#wrapper{
+    width: 70%;
+    padding: 103px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+#form-login{
+    border: 1px solid black;
+    max-width: 250px;
+    background: white;
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.8);
+}
+.form-heading{
+    font-size: 20px;
+    color: rgb(94, 70, 48);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-group{
+    border-bottom: 0px solid black;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    display: flex;
+}
+.form-group i{
+    color: black;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-right: 10px;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: black;
+    flex-grow: 1;
+}
+.form-input::placeholder{
+    color: black;
+}
+
+.form-submit{
+    background: transparent;
+    background-color: blue;
+    border: 1px solid black;
+    color: rgb(253, 253, 253);
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+}
+.form-submit:hover{
+    border: 1px solid #5e0c19;
+}
+.center{
+    margin-left: 135px; 
+}
+.border{
+    border: 1px solid black;
+    padding: 15px;
+}
+/* ----------- login -----------*/
+/* ------------footer-----------*/
+.site-footer__hr {
+    border-bottom: 1px solid #b89d8a;
+  }
+.site-footer {
+color: #ffffff;
+background-color: #b1845f;
+}
+.site-footer__rte a {
+border-bottom: 1px solid #ffffff;
+}
+
+/*-----footer------*/
+/* ( add-box tách riêng vị trí ) */
+.add-box i{
+    font-size: 20px;
+}
+
+#acc{
+    position: absolute;
+    width:50px; 
+    padding: 20px; 
+    right: 40px; 
+    top:20px;
+}
+
+#acc img:hover #wrapper,#form-login{
+    width: 400px;
+    height: 450px;
+
+}

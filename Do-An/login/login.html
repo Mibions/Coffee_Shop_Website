@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+   <h1 style="font-size:20px;"> 
+   <a style="color:black;" href="../Do-An.html">&#10094; &#10094; Trở về </a>
+   </h1>
+    <div id="wrapper">
+        <form id="form-login" > 
+           <h1 class="form-heading">LOGIN</h1>
+            <form name="myform" method="post" action="#" action="welcome1.php" onsubmit="return validateEmail(); return validateform()">
+                Email:<br>  <input type="text" name="email"><br>
+                Password:<br> <input type="password" name="password"><br>
+                <div class="text-center">
+                
+                    <p><a href="/forgotPassword.html" id="RecoverPassword">Forgot your password?</a></p>
+                  
+      
+                  <input type="submit" class="btn" value="Sign In">
+      
+                  <p>
+                    <a href="./createAcc.html" id="customer_register_link">Create account</a>
+                  </p>
+                </div>
+            </form>
+            
+        </form>
+        
+    </div>
+
+<!--
+  <footer class="site-footer" role="contentinfo" data-section-id="footer" data-section-type="footer-section">
+    <p>Please leave feedback to make Sugang better and better</p>
+    <input type="hidden" name="form_type" value="customer"><input type="hidden" name="utf8" value="✓">
+    <input type="hidden" name="contact[tags]" value="newsletter">
+    <div class="input-group ">
+      <input type="text" name="customer[first_name]" id="RegisterForm-FirstName" autocomplete="given-name">
+      <span class="input-group__btn">
+        <button type="submit" class="btn newsletter__submit" name="commit" id="Subscribe">
+          <span class="newsletter__submit-text--large">Subscribe</span>
+        </button>
+      </span>
+    </div>       
+  </footer>
+
+<script>
+function addAddress()
+{
+    var address= prompt('Enter your address','');
+    if(address){
+        document.getElementById('add-address').innerText= ' ' + address;
+    }
+    else{
+        alert("Address not added")
+    }
+}
+</script>
+
+<div class="add-box">
+  <i class="fa fa-map-marker your-address" id="add-address">
+    <p>Please leave feedback to make Sugong better and better</p>
+    <input type="hidden" name="form_type" value="customer"><input type="hidden" name="utf8" value="✓">
+    <input type="hidden" name="contact[tags]" value="newsletter">
+    <div class="input-group ">
+      <input type="text" name="customer[first_name]" id="RegisterForm-FirstName" autocomplete="given-name">
+      <span class="input-group__btn">
+        <button type="submit" class="btn newsletter__submit" name="commit" id="Subscribe">
+          <span class="newsletter__submit-text--large">Send</span>
+        </button>
+      </span>
+    </div>   
+  </i>
+</div>
+-->
+</body>
+</html>

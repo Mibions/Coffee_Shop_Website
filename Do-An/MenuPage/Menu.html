@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu_Sugong_Shop</title>
+  <link rel="stylesheet" href="Menu.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Nav -->
+    <div class="nav container">
+      <a href="../Do-An.html" class="logo">Sugong</a>
+      <!-- Cart Icon -->
+      <i class="bx bx-shopping-bag" id="cart-icon">Orders</i>
+      <div class="cart">
+        <p class="cart-title">Your Order</p>
+        <div class="cart-content"></div>
+        <!-- Total -->
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">0 VNĐ</div>
+        </div>
+        <!-- Buy Button -->
+        <button type="button" class="btn-buy">Buy Now</button>
+        <!-- Cart Colose -->
+        <i class="bx bx-x" id="close-cart">Close</i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Shop -->
+  <section class="shop container">
+    <h2 class="section-title-first">Sugong's Coffee</h2>
+    <!-- Item Of Coffe Row1  -->
+    <div class="shop-content-column">
+      <!-- Item 1 -->
+      <div class="product-box">
+        <img src="./Coffee/Epresso.png" alt="" class="product-img" />
+        <div class="tooltip">
+          <h2 class="product-title">Epresso</h2>
+          <span class="price">45000 VNĐ</span>
+          <span class="tooltiptext">Concentrated coffe in small shot</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 2  -->
+      <div class="product-box">
+        <img src="./Coffee/FlatWhite.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 59px;">
+          <h2 class="product-title">Flat White</h2>
+          <span class="price">60000 VNĐ</span>
+          <span class="tooltiptext">Espresso with steamed milk.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 3  -->
+      <div class="product-box">
+        <img src="./Coffee/Americano.png" alt="" class="product-img" />
+        <div class="tooltip">
+          <h2 class="product-title">Americano</h2>
+          <span class="price">45000 VNĐ</span>
+          <span class="tooltiptext">Espresso with hot water.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 4  -->
+      <div class="product-box">
+        <img src="./Coffee/Latte.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 117px;">
+          <h2 class="product-title">Latte</h2>
+          <span class="price">30000 VNĐ</span>
+          <span class="tooltiptext">A latte is a shot of espresso topped with steamed milk and
+            foam.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <!-- Item Of Coffe Row2  -->
+    <div class="shop-content-column">
+      <!-- Item 1 -->
+      <div class="product-box">
+        <img src="./Coffee/Affogato.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 50px;">
+          <h2 class="product-title">Affogato</h2>
+          <span class="price">60000 VNĐ</span>
+          <span class="tooltiptext">A scoop of ice cream is placed in a small cup, then warm,
+            unsweetened coffee is poured over it.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 2  -->
+      <div class="product-box">
+        <img src="./Coffee/Macchiato.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 23px;">
+          <h2 class="product-title">Macchiato</h2>
+          <span class="price">69000 VNĐ</span>
+          <span class="tooltiptext">A macchiato is equal parts espresso and steamed milk.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 3  -->
+      <div class="product-box">
+        <img src="./Coffee/Capucchino.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 130px;">
+          <h2 class="product-title">Capucchino</h2>
+          <span class="price">45000 VNĐ</span>
+          <span class="tooltiptext">A cappuccino is a shot of espresso with steamed milk.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 4  -->
+      <div class="product-box">
+        <img src="./Coffee/cps.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 20px;">
+          <h2 class="product-title">Milk Coffee</h2>
+          <span class="price">33000 VNĐ</span>
+          <span class="tooltiptext">Coffee with hot water and milk then cooled with ice.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+    </div>
+
+    <h2 class="section-title">Sugong's Tea & Milk Tea</h2>
+    <!-- Item Of Tea & Milk Tea Row1  -->
+    <div class="shop-content-column">
+      <!-- Item 1 -->
+      <div class="product-box">
+        <img src="./Tea & Milk Tea/black sugar bubble milk.png" alt="" class="product-img" />
+        <div class="tooltip">
+          <h2 class="product-title" style="margin-bottom: 50px;">Black Sugar Milk Tea</h2>
+          <span class="price">65000 VNĐ</span>
+          <span class="tooltiptext">The drink has tapioca balls in a brown sugar syrup, black tea,
+            and milk.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 2  -->
+      <div class="product-box">
+        <img src="./Tea & Milk Tea/matcha latte.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 110px; margin-bottom: 30px;">
+          <h2 class="product-title" style="margin-bottom: 40px;">Matcha Milk Tea</h2>
+          <span class="price">60000 VNĐ</span>
+          <span class="tooltiptext">Matcha milk tea is a made from green tea powder, hot water, and
+            milk.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 3  -->
+      <div class="product-box">
+        <img src="./Tea & Milk Tea/olong.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 62px;">
+          <h2 class="product-title" style="margin-bottom: 38px;">Olong Milk Tea</h2>
+          <span class="price">45000 VNĐ</span>
+          <span class="tooltiptext">Oolong tea, milk, brown sugar, with black bubble.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 4  -->
+      <div class="product-box">
+        <img src="./Tea & Milk Tea/hbt.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 72px;">
+          <h2 class="product-title" style="margin-bottom: 35px;">Herbal Tea</h2>
+          <span class="price">30000 VNĐ</span>
+          <span class="tooltiptext">Made from plants, seeds, dried flowers by pouring boiling
+            water.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <!-- Item Of Tea & Milk Tea Row2  -->
+    <div class="shop-content-column">
+      <!-- Item 1 -->
+      <div class="product-box">
+        <img src="./Tea & Milk Tea/Southern Strawberry Iced Sweet Tea.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 0px;">
+          <h2 class="product-title" style="margin-bottom: 42px;">Southern Strawberry Iced Sweet Tea</h2>
+          <span class="price">60000 VNĐ</span>
+          <span class="tooltiptext">Black tea and a simple strawberry syrup and boasts of great
+            hints of lemon, strawberry.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 2  -->
+      <div class="product-box">
+        <img src="./Tea & Milk Tea/peach.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 72px;">
+          <h2 class="product-title" style="margin-bottom: 65px;">Peach Tea</h2>
+          <span class="price">45000 VNĐ</span>
+          <span class="tooltiptext">Black tea, Mint leaves, Peaches.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 3  -->
+      <div class="product-box">
+        <img src="./Tea & Milk Tea/Honey Lemon Tea.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 25px;">
+          <h2 class="product-title" style="margin-bottom: 68px;">Honey Lemon Tea</h2>
+          <span class="price">45000 VNĐ</span>
+          <span class="tooltiptext">Lemon juice, honey and hot water.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+    </div>
+
+    <h2 class="section-title">Sugong's Smoothie</h2>
+    <!-- Item Of Smoothie Row1  -->
+    <div class="shop-content-column">
+      <!-- Item 1 -->
+      <div class="product-box">
+        <img src="./Smoothie/apple banana.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 65px;">
+          <h2 class="product-title" style="margin-bottom: 10px;">Apple Banana Smoothie</h2>
+          <span class="price">45000 VNĐ</span>
+          <span class="tooltiptext">Apple, banana peeled and chopped with orange juice and
+            milk.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 2  -->
+      <div class="product-box">
+        <img src="./Smoothie/apple pie.png" alt="" class="product-img" />
+        <div class="tooltip">
+          <h2 class="product-title">Apple Pie Smoothie</h2>
+          <span class="price">60000 VNĐ</span>
+          <span class="tooltiptext">Apple, yogout, milk, cinnamon, honey, cream and rolled
+            oats.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 3  -->
+      <div class="product-box">
+        <img src="./Smoothie/berry vanilla.png" alt="" class="product-img" />
+        <div class="tooltip">
+          <h2 class="product-title">Berry Vanilla Smoothie</h2>
+          <span class="price">45000 VNĐ</span>
+          <span class="tooltiptext">Frozen mixed berrie, vanilla protein powder, milk and
+            water.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 4  -->
+      <div class="product-box">
+        <img src="./Smoothie/chocolate peanut.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 50px;">
+          <h2 class="product-title">Chocolate Peanut Smoothie</h2>
+          <span class="price">45000 VNĐ</span>
+          <span class="tooltiptext">Milk, honey, banana sliced and frozen, light creamy peanut
+            butte and cocoa powder.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <!-- Item Of Smoothie Row2  -->
+    <div class="shop-content-column">
+      <!-- Item 1 -->
+      <div class="product-box" style="height: 500px;">
+        <img src="./Smoothie/mango tart cherry.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 0px;">
+          <h2 class="product-title">Mango Tart Cherry Smoothie</h2>
+          <span class="price">45000 VNĐ</span>
+          <span class="tooltiptext">Tart cherry juice, frozen mango chunks, and yogurt.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 2  -->
+      <div class="product-box" style="height: 500px;">
+        <img src="./Smoothie/mocha banana.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 15px;">
+          <h2 class="product-title">Mocha Banana Smoothie</h2>
+          <span class="price">50000 VNĐ</span>
+          <span class="tooltiptext">Bananas, espresso, almond milk, oats, honey and cocoa.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 3  -->
+      <div class="product-box" style="height: 500px;">
+        <img src="./Smoothie/pina colada.png" alt="" class="product-img" />
+        <div class="tooltip">
+          <h2 class="product-title">Pina Colada Smoothie</h2>
+          <span class="price">55000 VNĐ</span>
+          <span class="tooltiptext">Rum, cream of coconut, pineapple juice and frozen
+            pineapple.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 4  -->
+      <div class="product-box" style="height: 500px;">
+        <img src="./Smoothie/pumpkin pie.png" alt="" class="product-img" />
+        <div class="tooltip" style="margin-top: 0px;">
+          <h2 class="product-title">Pumpkin Pie Smoothie</h2>
+          <span class="price">60000 VNĐ</span>
+          <span class="tooltiptext">Pumpkin puree, banana, yogurt vanilla, pumpkin pie spice,
+            honey, whipped cream and milk.</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+    </div>
+
+    <h2 class="section-title">Sugong's Cookies</h2>
+    <!-- Item Of Cookies Row1  -->
+    <div class="shop-content-column">
+      <!-- Item 1 -->
+      <div class="product-box" style="height: 500px;">
+        <img src="./Cake/Cookies/carrot cream cheese.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title">Carrot Cream Cheese Cookies</h2>
+          <span class="price">45000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 2  -->
+      <div class="product-box">
+        <img src="./Cake/Cookies/Chewy Ginger Molasses Cookies.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title">Chewy Ginger Molasses Cookies</h2>
+          <span class="price">45000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 3  -->
+      <div class="product-box">
+        <img src="./Cake/Cookies/choc chip cookies.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title">Choco Chip Cookies</h2>
+          <span class="price">45000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 4  -->
+      <div class="product-box">
+        <img src="./Cake/Cookies/Choco Mint.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title">Choco Mint</h2>
+          <span class="price">45000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <!-- Item Of Cookies Row2  -->
+    <div class="shop-content-column">
+      <!-- Item 1 -->
+      <div class="product-box">
+        <img src="./Cake/Cookies/chocolate chip cookies.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title" style="margin-top: 55px;">Chocolate Chip Cookies</h2>
+          <span class="price">45000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 2  -->
+      <div class="product-box">
+        <img src="./Cake/Cookies/Chocolate Peanut Butter Cookies.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title">Chocolate Peanut Butter Cookies</h2>
+          <span class="price">45000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 3  -->
+      <div class="product-box">
+        <img src="./Cake/Cookies/lemon.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title">Lemon Cookies</h2>
+          <span class="price">45000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 4  -->
+      <div class="product-box">
+        <img src="./Cake/Cookies/oatmeal cookies.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title">Oatmeal Cookies</h2>
+          <span class="price">45000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <!-- Item Of Cookies Row3  -->
+    <div class="shop-content-column">
+      <!-- Item 1 -->
+      <div class="product-box">
+        <img src="./Cake/Cookies/redvelvet.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title">redvelvet Cookies</h2>
+          <span class="price">45000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 2  -->
+      <div class="product-box">
+        <img src="./Cake/Cookies/strawberry.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title">Strawberry Cookies</h2>
+          <span class="price">45000 VNĐ</span>
+          <span class="tooltiptext"></span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+    </div>
+
+    <h2 class="section-title">Sugong's Macarons</h2>
+    <!-- Item Of Macarons Row1  -->
+    <div class="shop-content-column">
+      <!-- Item 1 -->
+      <div class="product-box">
+        <img src="./Cake/Maccarons/Blueberry Cheesecake Macarons.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title">Blueberry Cheesecake Macarons</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 2  -->
+      <div class="product-box">
+        <img src="./Cake/Maccarons/Chocolate Macarons.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title">Chocolate Macarons</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 3  -->
+      <div class="product-box">
+        <img src="./Cake/Maccarons/Chocolate Orange Macarons.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title" style="margin-top: 55px;">Chocolate Orange Macarons</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 4  -->
+      <div class="product-box">
+        <img src="./Cake/Maccarons/Coconut macarons.png" alt="" class="product-img" />
+        <div style="height: 50px;">
+          <h2 class="product-title">Coconut Macarons</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <!-- Item Of Macarons Row2  -->
+    <div class="shop-content-column">
+      <!-- Item 1 -->
+      <div class="product-box">
+        <img src="./Cake/Maccarons/green tea macarons.png" alt="" class="product-img" />
+        <div style="height: 150px;">
+          <h2 class="product-title" style="margin-top: 42px;">Green Tea Macarons</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 2  -->
+      <div class="product-box">
+        <img src="./Cake/Maccarons/Lavender Macarons.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title">Lavender Macarons</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 3  -->
+      <div class="product-box">
+        <img src="./Cake/Maccarons/Oreo Macarons.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title">Oreo Macarons</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 4  -->
+      <div class="product-box">
+        <img src="./Cake/Maccarons/salted caramel macarons.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title" style="margin-top: 34px;">Salted Caramel Macarons</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <!-- Item Of Macarons Row3  -->
+    <div class="shop-content-column">
+      <!-- Item 1 -->
+      <div class="product-box">
+        <img src="./Cake/Maccarons/Strawberry Cheesecake Macaron.png" alt="" class="product-img" />
+        <div style="height: 150px;">
+          <h2 class="product-title">Strawberry Cheesecake Macaron</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+    </div>
+
+    <h2 class="section-title">Sugong's Donuts</h2>
+    <!-- Item Of Donuts Row1  -->
+    <div class="shop-content-column">
+      <!-- Item 1 -->
+      <div class="product-box">
+        <img src="./Donuts/Baked Orange Donuts with Salted Caramel Glaze.png" alt="" class="product-img" />
+        <div style="height: 150px;">
+          <h2 class="product-title">Baked Orange Donuts with Salted Caramel Glaze</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 2  -->
+      <div class="product-box">
+        <img src="./Donuts/Black Sesame Matcha Doughnuts.png" alt="" class="product-img" />
+        <div style="margin-top: 40px;">
+          <h2 class="product-title">Black Sesame Matcha Doughnuts</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 3  -->
+      <div class="product-box">
+        <img src="./Donuts/Cinnamon Spiced Doughnuts.png" alt="" class="product-img" />
+        <div style="margin-top: 52px;">
+          <h2 class="product-title">Cinnamon Spiced Doughnuts</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 4  -->
+      <div class="product-box">
+        <img src="./Donuts/Glazed Coconut Donuts.png" alt="" class="product-img" />
+        <div style="margin-top: -3px;">
+          <h2 class="product-title">Glazed Coconut Donuts</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <!-- Item Of Donuts Row2  -->
+    <div class="shop-content-column">
+      <!-- Item 1 -->
+      <div class="product-box">
+        <img src="./Donuts/Mint Chocolate Chip Protein Donuts.png" alt="" class="product-img" />
+        <div style="height: 150px;">
+          <h2 class="product-title">Mint Chocolate Chip Protein Donuts</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 2  -->
+      <div class="product-box">
+        <img src="./Donuts/Red velvet donuts.png" alt="" class="product-img" />
+        <div style="margin-top: -22px;">
+          <h2 class="product-title">Red Velvet Donuts</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 3  -->
+      <div class="product-box">
+        <img src="./Donuts/Triple Chocolate Donuts.png" alt="" class="product-img" />
+        <div style="margin-top: -18px;">
+          <h2 class="product-title">Triple Chocolate Donuts</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 4  -->
+      <div class="product-box">
+        <img src="./Donuts/Turmeric Lemon Coconut Donuts.png" alt="" class="product-img" />
+        <div style="margin-top: -30px;">
+          <h2 class="product-title">Turmeric Lemon Coconut Donuts</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+    </div>
+    <!-- Item Of Donuts Row3  -->
+    <div class="shop-content-column">
+      <!-- Item 1 -->
+      <div class="product-box">
+        <img src="./Donuts/Vegan Blueberry Donuts.png" alt="" class="product-img" />
+        <div style="height: 150px;">
+          <h2 class="product-title">Vegan Blueberry Donuts</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+      <!-- Item 2 -->
+      <div class="product-box">
+        <img src="./Donuts/Vegan chai latte donuts with maple glaze.png" alt="" class="product-img" />
+        <div>
+          <h2 class="product-title">Vegan Chai Latte Donuts Ưith Maple Glaze</h2>
+          <span class="price">30000 VNĐ</span>
+        </div>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+    </div>
+  </section>
+
+  <script src="Menu.js"></script>
+</body>
+
+</html>
